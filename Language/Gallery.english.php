@@ -1,0 +1,102 @@
+<?php
+// Version: 2.1, Gallery
+return [
+	'name' => 'Gallery',
+
+	// Permissions
+	'permissiongroup_classic_perm' => 'TekFW: Gallery',
+	'permissiongroup_simple_simple_perm' => 'TekFW: Gallery',
+	'permissionname_perm_manage_album' => 'Manage album',
+	'permissionhelp_perm_manage_album' => 'Allows create, edit and delete of all albums.',
+	'permissionname_perm_manage_image' => 'Manage pictures',
+	'permissionhelp_perm_manage_image' => 'Allows edit and delete of all pictures.',
+
+	// Album
+	'headline' => 'Gallery',
+	'upload' => 'Upload picture',
+	'intro' => '',
+	'legal' => '',
+	'pictures' => 'Pictures',
+	'nopics' => 'No pictures in this album.',
+	'without_title' => '<ohne Tite',
+	'album' => 'Album',
+	'album_headline_info' => 'Album informations',
+	'album_title' => 'Title',
+	'album_description' => 'Description',
+	'album_category' => 'Album group',
+	'album_tags' => 'Tags',
+	'album_notes' => 'Internal notes',
+	'album_legalinfo' => 'Legal informations',
+	'album_new' => 'New album',
+	'album_edit' => 'Edit album',
+	'album_delete' => 'Delete album',
+	'album_headline_upload' => 'Upload',
+	'album_upload_not_active' => 'Upload is inactive because of not selected MIME types in app config',
+	'album_mime_types' => 'Allowed mime types',
+	'mime_type_help' => 'Select MIME-types allowed to be uploaded. If none is selected, the upload will be deactivated.',
+	'album_headline_access' => 'Userrights',
+	'album_accessgroups' => 'View album',
+	'accessgroups_help' => 'Selected groups are allowed to see this album. No selected group means to hide this album from public (except admins and owner)',
+	'album_uploadgroups' => 'Upload pictures',
+	'uploadroups_help' => 'Selected groups are allowed to upload pictures.',
+	'album_headline_options' => 'Options',
+	'album_anonymous' => 'Anonym pictures',
+	'album_scoring' => 'Scoring active?',
+	'album_img_per_user' => 'Pictures per user',
+
+	// Errors
+	'album_error_title_already_exists' => 'This album title is already in use.',
+
+	// Display
+	'rnd_image' => 'Random picture',
+	'title' => 'Title',
+	'description' => 'Description',
+	'from_gallery' => 'From gallery',
+	'picturedata' => 'Picture infos',
+	'filesize' => 'Filesize',
+	'uploader' => 'Uploader',
+	'dimension' => 'Sizes',
+	'date_upload' => 'Date/Time',
+	'gallerydata' => 'Gallery infos',
+	'imgurl' => 'URLs',
+	'imgurl_original' => 'Orginal',
+	'imgurl_medium' => 'Medium',
+	'imgurl_thumb' => 'Thumb',
+	'optional' => 'Optional',
+
+	// Upload
+	'optional_info' => 'Feel free to provide a title and a description for the picture. It\'s both optional. If no name is provided the name of the uploaded file will be taken as title.',
+	'picture_id_album' => 'Gallery',
+	'picture_upload' => 'Upload picture',
+	'picture_title' => 'Title',
+	'picture_description' => 'Description',
+	'max_upload_size' => 'max Filesize: %s (%d Bytes)',
+	'upload_error_0' => 'There is no error, the file uploaded with success',
+	'upload_error_1' => 'Fileszie of uploaded file exceeds allowed filesize.',
+	'upload_error_2' => 'The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form',
+	'upload_error_3' => 'Upload hasn\'t been finished.',
+	'upload_error_4' => 'No file uploaded.',
+	'upload_error_6' => 'Temp folder couldn\'t be found',
+	'file_already_exists' => 'The file "%s" already exists.',
+	'upload_is_no_image' => 'The uploaded file is no image.',
+	'upload_mime_type_not_allowed' => 'The MIME-Type of uploaded file was not accepted.',
+
+	// Config
+	'cfg_group_display' => 'Display',
+	'cfg_grid' => 'Grid size',
+	'cfg_grid_desc' => 'Size of grid on gallery and album index. Select 1 to deactivate grid view.',
+	'cfg_group_upload' => 'Upload settings',
+	'cfg_upload_mime_types' => 'Mime-Types',
+	'cfg_path' => 'Gallery directory',
+	'cfg_path_desc' => 'Directory of gallery inside SMF folder.',
+	'cfg_upload_mime_types_desc' => 'Select the MIME-types which are allowed to be uploaded. This selection is the general setting which MIMI-type are uploadable in the galleries. Without any selection, uploads will be turned off gallery wide.',
+	'cfg_group_thumbnail' => 'Thumbnails',
+	'cfg_thumbnail_use' => 'Use thumbnails',
+	'cfg_thumbnail_use_desc' => 'When active a thumbnail of an uploaded image will be created with the settings below.',
+	'cfg_thumbnail_width' => 'Thumbnail width',
+	'cfg_thumbnail_width_desc' => 'Defines the with of the thumbnail to create in pixel.',
+	'cfg_thumbnail_quality' => 'Thumbnail JPEG quality (1-100)%',
+	'cfg_thumbnail_quality_desc' => 'Defines quality of thumbnail. The value represents the percentage used for jpeg compression.'
+];
+
+

@@ -1,0 +1,92 @@
+.app-gallery-picture {
+	position: relative;
+}
+
+.app-gallery-picture:hover
+.app-gallery-picturedata {
+	display: block;
+}
+
+.app-gallery-picturedata {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: none;
+}
+
+.app-gallery-box {
+	position: relative;
+	margin-bottom: 2% !important;
+}
+
+.app-gallery-box a {
+	display: block;
+	text-decoration: none;
+}
+
+.app-gallery-picture {
+	margin: 10px 0;
+}
+
+.app-gallery-infobox,
+.app-gallery-titlebox {
+	margin: 0 10px;
+	position: absolute;
+}
+
+.app-gallery-titlebox {
+	top: 10px;
+	overflow: hidden;
+}
+
+.app-gallery-titlebox h3 {
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	text-shadow: 2px 2px 2px #222;
+}
+
+.app-gallery-infobox {
+	bottom: 10px;
+	font-size: 90%;
+}
+
+.app-gallery-preview {
+	display: block;
+	width: 100%;
+	height: 150px;
+	background-position: 50% 50%;
+	background-size: 100% Auto;
+}
+
+.app-gallery-rnd-box {
+	position: relative;
+}
+
+.app-gallery-rnd-infobox {
+	margin: 0 10px;
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.app-gallery-imgurl span {
+	display: block;
+}
+
+.app-gallery-imgurl span,.app-gallery-imgurl input {
+	width: 100%;
+}
+
+.app-gallery-imgurl input {
+	background-color: #ccc;
+}
+
+.app-gallery-picturedata td.desc {
+	width: 150px;
+}
+
+.app-gallery-picturedata h3:first-child {
+	margin-top: 0 !important;
+}
